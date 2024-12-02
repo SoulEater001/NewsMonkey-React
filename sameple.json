@@ -1,32 +1,110 @@
 {
     "status": "ok",
-    "totalResults": 2,
+    "totalResults": 8,
     "articles": [
         {
             "source": {
-                "id": "espn-cric-info",
-                "name": "ESPN Cric Info"
+                "id": "nbc-news",
+                "name": "NBC News"
             },
-            "author": null,
-            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
-            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
-            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
-            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
-            "publishedAt": "2020-04-27T11:41:47Z",
-            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+            "author": "Angela Yang",
+            "title": "'Moana 2' leads in highest-grossing Thanksgiving weekend ever at box office",
+            "description": "A week of major movie releases has propelled this holiday stretch to the highest-grossing Thanksgiving weekend ever at the box office.",
+            "url": "https://www.nbcnews.com/news/us-news/moana-2-thanksgiving-box-office-record-rcna182346",
+            "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-11/241127-moana-vl-1244p-92deac.jpg",
+            "publishedAt": "2024-12-01T18:36:22Z",
+            "content": "A week of major movie releases has propelled this holiday stretch to the highest-grossing Thanksgiving weekend ever at the box office.\r\nFirst, viewers packed theaters to sing with the witches of Oz a… [+3209 chars]"
         },
         {
             "source": {
-                "id": "espn-cric-info",
-                "name": "ESPN Cric Info"
+                "id": "the-huffington-post",
+                "name": "The Huffington Post"
             },
-            "author": null,
-            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
-            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
-            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
-            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
-            "publishedAt": "2020-03-30T15:26:05Z",
-            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+            "author": "Ben Blanchet",
+            "title": "Demi Moore Says This '90s Movie Script 'Scared The Crap' Out Of Her",
+            "description": "The \"Substance\" star said she was \"overwhelmed\" while reading the script of the film with Patrick Swayze.",
+            "url": "https://www.huffpost.com/entry/demi-moore-ghost-1990-hot-ones_n_674c261de4b0dacf5f839b87",
+            "urlToImage": "https://img.huffingtonpost.com/asset/674c473318000024009dd3d1.jpeg?cache=YTOUM8APy2&ops=1200_630",
+            "publishedAt": "2024-12-01T14:55:53Z",
+            "content": "Demi Moore has revealed that the script to the 1990 film Ghost definitely scared the crap out of her.\r\nThe Substance star, in a recent episode of Hot Ones, spilled on the emotional impact of the film… [+1921 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "MORGAN LEE Associated Press",
+            "title": "Movie armorer on Alec Baldwin's film 'Rust' pleads guilty to gun charge in separate case",
+            "description": "She pleaded guilty to carrying a gun into a license liquor establishment.",
+            "url": "https://abcnews.go.com/US/wireStory/movie-armorer-alec-baldwins-film-rust-pleads-guilty-114579606",
+            "urlToImage": "https://i.abcnewsfe.com/a/4adc877c-10a5-4294-9d94-d8d6083347a0/wirestory_623ed5fb65687f6f638a0c8a6157ba7f_16x9.jpg?w=1600",
+            "publishedAt": "2024-10-07T22:02:57Z",
+            "content": "SANTA FE, N.M. -- The weapons supervisor in the fatal shooting of a cinematographer by Alec Baldwin on the set of the Western film Rust\" pleaded guilty Monday to a separate criminal charge of carryin… [+2459 chars]"
+        },
+        {
+            "source": {
+                "id": "polygon",
+                "name": "Polygon"
+            },
+            "author": "Matt Patches",
+            "title": "Robert Downey Jr. is Iron Man again—for Disney’s big Avengers land rides",
+            "description": "He’s Doctor Doom in Marvel movies, but for Marvel’s Avengers Campus, RDJ is back as Tony Stark for Stark Flight Lab and Avengers: Infinity Defense rides.",
+            "url": "https://www.polygon.com/24217880/robert-downey-jr-iron-man-avengers-campus-rides",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/PFEKiuJ8uASyOhkKMoh8p-LmRbs=/377x66:1311x555/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25567657/DLR_Avengers_Campus3_1536x666.jpg",
+            "publishedAt": "2024-08-11T12:18:45Z",
+            "content": "How much of the Marvel Cinematic Universe can one man own? Robert Downey Jr. is on a quest to find out. Despite Marvel casting the actor as Doctor Doom for the upcoming Avengers: Doomsday, Downey Jr.… [+2124 chars]"
+        },
+        {
+            "source": {
+                "id": "polygon",
+                "name": "Polygon"
+            },
+            "author": "Matt Patches",
+            "title": "Disney’s D23 Snow White trailer unveils Rachel Zegler’s updated princess",
+            "description": "Rachel Zegler stars alongside seven CG dwarfs in the race-changing reimagining of the 1937 movie from director Marc Webb. The movie releases next spring.",
+            "url": "https://www.polygon.com/24216163/snow-white-trailer-2025-disney-d23",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/NXS3PTuGmM8bFTu2JxqahfhfaKg=/174x0:2443x1188/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25566616/snowwhitedance.jpg",
+            "publishedAt": "2024-08-10T04:44:21Z",
+            "content": "Rachel Zegler stars alongside seven CG dwarfs"
+        },
+        {
+            "source": {
+                "id": "polygon",
+                "name": "Polygon"
+            },
+            "author": "Zosha Millman, Susana Polo, Petrana Radulovic, Matt Patches",
+            "title": "Disney’s D23 2024: All the big trailers and news in one place",
+            "description": "Marvel, Star Wars, Pixar, Disney Animation reveal their new movies, tv shows, trailers, and plans for the 2025 and beyond at the Disney version of Comic-Con.",
+            "url": "https://www.polygon.com/24217230/d23-news-trailers-disney-marvel-star-wars-2024",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/gjRhYaBLPVsrbhRxccvgvne5tdQ=/0x24:1200x652/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25566500/D23__The_Ultimate_Disney_Fan_Event_Key_Art.jpg",
+            "publishedAt": "2024-08-10T02:02:15Z",
+            "content": "Hot on the heels of SDCC 2024 comes Disneys giant fan convention, which intends to reveal just as much news about the future of Marvel, Star Wars, Pixar, Disney Animation, and the Disney Parks as a t… [+400 chars]"
+        },
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": "Collier Jennings",
+            "title": "Best Action Movies on Netflix Right Now (September 2022) - IGN",
+            "description": "These are the best action movies on Netflix right now -- blockbusters, fight films, animated adventures and shootouts galore.",
+            "url": "https://www.ign.com/articles/best-action-movies-on-netflix-right-now",
+            "urlToImage": "https://assets-prd.ignimgs.com/2022/07/28/rrr-1659047262112.jpg?width=1280",
+            "publishedAt": "2022-09-01T18:03:14Z",
+            "content": "There is nothing like a good action movie on Netflix. The perfectly choreographed fight scenes that let you feel every punch and kick on screen; the shootouts that see bullets and bodies hitting the … [+11394 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch-cn",
+                "name": "TechCrunch (CN)"
+            },
+            "author": "Brian Heater",
+            "title": "盘点 2019 年消失的明星创业公司 | TechCrunch 中文版",
+            "description": "创业公司会因为各种原因而失败，但有一点不会改变：创业是极其困难的事。想要创办一家成功的公司，需要的不仅仅是热情，以及找到合适的人才（尽管很明显这两点很重要）。成功的创业者需要在许许多多细节上做到完美。\r\n\r\n粗略地回顾下今年的创业公司，可以发现并没有什么公司能带来像去年Theranos那样的轰动性故事。Theranos的故事被写成了畅销书，改编成了纪录片，相关电影也即将上映。不过某些公司，例如MoviePass，可能已经逐渐接近。\r\n\r\n通常来说，每看到一家Theranos，我们同时也会看到数十位辛勤创业者的故事…",
+            "url": "https://techcrunch.cn/2019/12/27/startups-lost-in-2019/",
+            "urlToImage": "https://files.techcrunch.cn/2019/12/gettyimages-829632570.jpg?w=1200",
+            "publishedAt": "2019-12-27T16:46:58Z",
+            "content": "Theranos Theranos MoviePass\r\n Theranos\r\n 2019 \r\nAnki2010 2019 \r\n1.82 \r\n2013 WWDC Overdrive iPhone \r\n3 Anki CozmoAnki 2018 Vector 2019 4 Anki 150 “”Cozmo \r\nChariot2014 2019 \r\n300 2017 \r\nChariot “” \r\n … [+1085 chars]"
         }
     ]
 }
