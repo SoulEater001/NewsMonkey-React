@@ -35,19 +35,9 @@ const News = (props) => {
         updateNews();
     }, [])
 
-    const handlePreviousClick = async () => {
-        setPage(page - 1);
-        updateNews();
-    }
-
-    const handleNextClick = async () => {
-        setPage(page + 1);
-        updateNews();
-    }
-
     const fetchMoreData = async () => {
+        const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${props.apiKey}&page=${page + 1}&pageSize=${pageSize}`;
         setPage(page + 1);
-        const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${props.apiKey}&page=${page}&pageSize=${pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
         setArticles(articles.concat(parsedData.articles));
@@ -56,13 +46,13 @@ const News = (props) => {
         setLoading(false);
     };
 
-    const uniqueArticles = articles.filter(
-        (article, index, self) =>
-            index === self.findIndex((t) => t.url === article.url)
-    );
+    // const uniqueArticles = articles.filter(
+    //     (article, index, self) =>
+    //         index === self.findIndex((t) => t.url === article.url)
+    // );
     return (
         <>
-            <h1 className='text-center' style={{ margin: "35px 0px" }}>NewsMonkey - Top {capitalizeFirstLetter(category)} Headlines</h1>
+            <h1 className='text-center' style={{ margin: "35px 0px", marginTop: "90px" }}>NewsMonkey - Top {capitalizeFirstLetter(category)} Headlines</h1>
             {loading && <Spinner />}
 
             <InfiniteScroll
@@ -73,7 +63,7 @@ const News = (props) => {
             >
                 <div className="container">
                     <div className="row">
-                        {uniqueArticles.map((element) => {
+                        {articles.map((element) => {
                             return <div className="col-md-4" key={element.url}>
                                 <NewsItem title={element?.title ? element.title.slice(0, 44) : ""} description={element.description ? element.description.slice(0, 88) : ""} imageUrl={element.urlToImage ? element.urlToImage : "https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2021/08/02/news.jpg?itok=eEnb05ue"} newsUrl={element.url} author={element.author || "Unknown"} date={element.publishedAt} source={element.source.name || ""} />
                             </div>
